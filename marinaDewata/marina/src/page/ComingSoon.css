@@ -1,0 +1,58 @@
+.marina-background{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    transition: 0.3s ease-out;
+    background-position: center center;
+}
+
+.marina-logo{
+    margin-top: 5vh;
+    margin-bottom: 32vh;
+    width: 26vw;
+    height: 8vh;
+}
+
+.marina-coming-soon {
+    width: 30vw;
+    height: 8vh;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+    .marina-background{
+        background-position: center;
+        text-align: center;
+    }
+    .marina-logo {
+        width: 60vw;
+        height: 4.5vh;
+        margin-bottom: 36vh;
+    }
+    .marina-coming-soon{
+        width: 80vw;
+        height: 4.5vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px){
+    .marina-background{
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        text-align: center;
+        transition: 0.3s ease-out;
+    }
+    
+    .marina-logo{
+        margin-top: 5vh;
+        margin-bottom: 37vh;
+        width: 37vw;
+        height: 4.5vh;
+    }
+    
+    .marina-coming-soon {
+        width: 55vw;
+        height: 6vh;
+    }
+}
