@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import Background from "../asset/marina-bg-1.png"
-import BackgroundMarina from "../asset/marina-bg-2.png"
+// import Background from "../asset/marina-bg-1.png"
+// import BackgroundMarina from "../asset/marina-bg-2.png"
+import BackgroundMarina2 from "../asset/marina-bg-3.png"
+import BackgroundMarina3 from "../asset/marina-bg-4.png"
 import Logo from "../asset/marina-logo.png"
 import ComingSoonText from "../asset/marina-coming-soon.png"
 import "./ComingSoon.css"
@@ -10,8 +12,10 @@ export class ComingSoon extends Component {
         super(props);
 
         const images = [
-            Background,
-            BackgroundMarina
+            // Background,
+            // BackgroundMarina,
+            BackgroundMarina2,
+            BackgroundMarina3
         ]
 
         this.state = {
